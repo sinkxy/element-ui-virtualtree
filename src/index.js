@@ -6,7 +6,7 @@ import Loading from '../packages/loading/index.js';
 import Notification from '../packages/notification/index.js';
 import MessageBox from '../packages/message-box/index.js';
 import Message from '../packages/message/index.js';
-import Tree from '../packages/tree/index.js';
+import SinTree from '../packages/sin-tree/index.js';
 import Checkbox from '../packages/checkbox/index.js';
 import CheckboxButton from '../packages/checkbox-button/index.js';
 import CheckboxGroup from '../packages/checkbox-group/index.js';
@@ -16,7 +16,7 @@ import CollapseTransition from 'element-ui/src/transitions/collapse-transition';
 const components = [
   Button,
   Input,
-  Tree,
+  SinTree,
   Checkbox,
   CheckboxButton,
   CheckboxGroup,
@@ -65,7 +65,7 @@ module.exports = {
   Notification,
   MessageBox,
   Message,
-  Tree,
+  SinTree,
   Checkbox,
   CheckboxButton,
   CheckboxGroup
