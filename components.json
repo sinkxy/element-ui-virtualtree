@@ -1,0 +1,12 @@
+{
+  "button": "./packages/button/index.js",
+  "input": "./packages/input/index.js",
+  "loading": "./packages/loading/index.js",
+  "notification": "./packages/notification/index.js",
+  "message-box": "./packages/message-box/index.js",
+  "message": "./packages/message/index.js",
+  "tree": "./packages/tree/index.js",
+  "checkbox": "./packages/checkbox/index.js",
+  "checkbox-button": "./packages/checkbox-button/index.js",
+  "checkbox-group": "./packages/checkbox-group/index.js"
+}
