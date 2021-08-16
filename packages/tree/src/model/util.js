@@ -1,5 +1,14 @@
 export const NODE_KEY = '$treeNodeId';
 
+export const arrayFindIndex = function(arr, pred) {
+    for (let i = 0; i !== arr.length; ++i) {
+        if (pred(arr[i])) {
+            return i;
+        }
+    }
+    return -1;
+};
+
 export const markNodeData = function(node, data) {
   if (!data || data[NODE_KEY]) return;
   Object.defineProperty(data, NODE_KEY, {
